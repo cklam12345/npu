@@ -1,0 +1,1140 @@
+﻿[
+    {
+        "CimClass":  {
+                         "CimSuperClassName":  "CIM_LogicalDevice",
+                         "CimSuperClass":  {
+                                               "CimSuperClassName":  "CIM_LogicalElement",
+                                               "CimSuperClass":  {
+                                                                     "CimSuperClassName":  "CIM_ManagedSystemElement",
+                                                                     "CimSuperClass":  "ROOT/CIMV2:CIM_ManagedSystemElement",
+                                                                     "CimClassProperties":  "Caption Description InstallDate Name Status",
+                                                                     "CimClassQualifiers":  "Locale = 1033 UUID = \"{8502C518-5FBB-11D2-AAC1-006008C78BC7}\" Abstract = True",
+                                                                     "CimClassMethods":  "",
+                                                                     "CimSystemProperties":  "Microsoft.Management.Infrastructure.CimSystemProperties"
+                                                                 },
+                                               "CimClassProperties":  [
+                                                                          "Caption",
+                                                                          "Description",
+                                                                          "InstallDate",
+                                                                          "Name",
+                                                                          "Status",
+                                                                          "Availability",
+                                                                          "ConfigManagerErrorCode",
+                                                                          "ConfigManagerUserConfig",
+                                                                          "CreationClassName",
+                                                                          "DeviceID",
+                                                                          "ErrorCleared",
+                                                                          "ErrorDescription",
+                                                                          "LastErrorCode",
+                                                                          "PNPDeviceID",
+                                                                          "PowerManagementCapabilities",
+                                                                          "PowerManagementSupported",
+                                                                          "StatusInfo",
+                                                                          "SystemCreationClassName",
+                                                                          "SystemName"
+                                                                      ],
+                                               "CimClassQualifiers":  [
+                                                                          "Locale = 1033",
+                                                                          "UUID = \"{8502C529-5FBB-11D2-AAC1-006008C78BC7}\"",
+                                                                          "Abstract = True"
+                                                                      ],
+                                               "CimClassMethods":  [
+                                                                       "SetPowerState",
+                                                                       "Reset"
+                                                                   ],
+                                               "CimSystemProperties":  {
+                                                                           "Namespace":  "ROOT/CIMV2",
+                                                                           "ServerName":  "HEWY_V2",
+                                                                           "ClassName":  "CIM_LogicalDevice",
+                                                                           "Path":  null
+                                                                       }
+                                           },
+                         "CimClassProperties":  [
+                                                    {
+                                                        "Name":  "Caption",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MaxLen = 64 read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Description",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "InstallDate",
+                                                        "Value":  null,
+                                                        "CimType":  13,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Name",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Status",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MaxLen = 10 read = True ValueMap = ...",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Availability",
+                                                        "Value":  null,
+                                                        "CimType":  4,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True ValueMap = ...",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "ConfigManagerErrorCode",
+                                                        "Value":  null,
+                                                        "CimType":  6,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True Schema = \"Win32\" ValueMap = ...",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "ConfigManagerUserConfig",
+                                                        "Value":  null,
+                                                        "CimType":  1,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True Schema = \"Win32\"",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "CreationClassName",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "CIM_Key = True read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "DeviceID",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, Key, ReadOnly, NullValue",
+                                                        "Qualifiers":  "CIM_Key = True read = True key = True MappingStrings = ... Override = \"DeviceId\"",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "ErrorCleared",
+                                                        "Value":  null,
+                                                        "CimType":  1,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "ErrorDescription",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "LastErrorCode",
+                                                        "Value":  null,
+                                                        "CimType":  6,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "PNPDeviceID",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True Schema = \"Win32\"",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "PowerManagementCapabilities",
+                                                        "Value":  null,
+                                                        "CimType":  20,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "PowerManagementSupported",
+                                                        "Value":  null,
+                                                        "CimType":  1,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "StatusInfo",
+                                                        "Value":  null,
+                                                        "CimType":  4,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True ValueMap = ...",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "SystemCreationClassName",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "CIM_Key = True Propagated = \"CIM_System.CreationClassName\" read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "SystemName",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "CIM_Key = True Propagated = \"CIM_System.Name\" read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "ClassGuid",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "CompatibleID",
+                                                        "Value":  null,
+                                                        "CimType":  30,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "HardwareID",
+                                                        "Value":  null,
+                                                        "CimType":  30,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Manufacturer",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "PNPClass",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Present",
+                                                        "Value":  null,
+                                                        "CimType":  1,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Service",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    }
+                                                ],
+                         "CimClassQualifiers":  [
+                                                    {
+                                                        "Name":  "Locale",
+                                                        "Value":  1033,
+                                                        "CimType":  7,
+                                                        "Flags":  "EnableOverride, ToSubclass"
+                                                    },
+                                                    {
+                                                        "Name":  "UUID",
+                                                        "Value":  "{FE28FD98-C875-11d2-B352-00104BC97924}",
+                                                        "CimType":  14,
+                                                        "Flags":  "EnableOverride, ToSubclass"
+                                                    },
+                                                    {
+                                                        "Name":  "dynamic",
+                                                        "Value":  true,
+                                                        "CimType":  1,
+                                                        "Flags":  "EnableOverride, ToSubclass"
+                                                    },
+                                                    {
+                                                        "Name":  "provider",
+                                                        "Value":  "CIMWin32",
+                                                        "CimType":  14,
+                                                        "Flags":  "EnableOverride, ToSubclass"
+                                                    }
+                                                ],
+                         "CimClassMethods":  [
+                                                 {
+                                                     "Name":  "SetPowerState",
+                                                     "ReturnType":  6,
+                                                     "Parameters":  "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                     "Qualifiers":  ""
+                                                 },
+                                                 {
+                                                     "Name":  "Reset",
+                                                     "ReturnType":  6,
+                                                     "Parameters":  "",
+                                                     "Qualifiers":  ""
+                                                 },
+                                                 {
+                                                     "Name":  "Enable",
+                                                     "ReturnType":  6,
+                                                     "Parameters":  "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                     "Qualifiers":  "Implemented = True"
+                                                 },
+                                                 {
+                                                     "Name":  "Disable",
+                                                     "ReturnType":  6,
+                                                     "Parameters":  "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                     "Qualifiers":  "Implemented = True"
+                                                 },
+                                                 {
+                                                     "Name":  "GetDeviceProperties",
+                                                     "ReturnType":  6,
+                                                     "Parameters":  "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                     "Qualifiers":  "Implemented = True"
+                                                 }
+                                             ],
+                         "CimSystemProperties":  {
+                                                     "Namespace":  "ROOT/cimv2",
+                                                     "ServerName":  "HEWY_V2",
+                                                     "ClassName":  "Win32_PnPEntity",
+                                                     "Path":  null
+                                                 }
+                     },
+        "CimInstanceProperties":  [
+                                      {
+                                          "Name":  "Caption",
+                                          "Value":  "NPU Compute Accelerator Device",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Description",
+                                          "Value":  "NPU Compute Accelerator Device",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "InstallDate",
+                                          "Value":  null,
+                                          "CimType":  13,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Name",
+                                          "Value":  "NPU Compute Accelerator Device",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Status",
+                                          "Value":  "OK",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Availability",
+                                          "Value":  null,
+                                          "CimType":  4,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "ConfigManagerErrorCode",
+                                          "Value":  0,
+                                          "CimType":  6,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "ConfigManagerUserConfig",
+                                          "Value":  false,
+                                          "CimType":  1,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "CreationClassName",
+                                          "Value":  "Win32_PnPEntity",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "DeviceID",
+                                          "Value":  "PCI\\VEN_1022\u0026DEV_17F0\u0026SUBSYS_8D87103C\u0026REV_10\\4\u002667F5A51\u00260\u00260142",
+                                          "CimType":  14,
+                                          "Flags":  "Property, Key, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "ErrorCleared",
+                                          "Value":  null,
+                                          "CimType":  1,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "ErrorDescription",
+                                          "Value":  null,
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "LastErrorCode",
+                                          "Value":  null,
+                                          "CimType":  6,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "PNPDeviceID",
+                                          "Value":  "PCI\\VEN_1022\u0026DEV_17F0\u0026SUBSYS_8D87103C\u0026REV_10\\4\u002667F5A51\u00260\u00260142",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "PowerManagementCapabilities",
+                                          "Value":  null,
+                                          "CimType":  20,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "PowerManagementSupported",
+                                          "Value":  null,
+                                          "CimType":  1,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "StatusInfo",
+                                          "Value":  null,
+                                          "CimType":  4,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "SystemCreationClassName",
+                                          "Value":  "Win32_ComputerSystem",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "SystemName",
+                                          "Value":  "HEWY_V2",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "ClassGuid",
+                                          "Value":  "{f01a9d53-3ff6-48d2-9f97-c8a7004be10c}",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "CompatibleID",
+                                          "Value":  [
+                                                        "PCI\\VEN_1022\u0026DEV_17F0\u0026REV_10",
+                                                        "PCI\\VEN_1022\u0026DEV_17F0",
+                                                        "PCI\\VEN_1022\u0026CC_118000",
+                                                        "PCI\\VEN_1022\u0026CC_1180",
+                                                        "PCI\\VEN_1022",
+                                                        "PCI\\CC_118000\u0026DT_0",
+                                                        "PCI\\CC_118000",
+                                                        "PCI\\CC_1180\u0026DT_0",
+                                                        "PCI\\CC_1180"
+                                                    ],
+                                          "CimType":  30,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "HardwareID",
+                                          "Value":  [
+                                                        "PCI\\VEN_1022\u0026DEV_17F0\u0026SUBSYS_8D87103C\u0026REV_10",
+                                                        "PCI\\VEN_1022\u0026DEV_17F0\u0026SUBSYS_8D87103C",
+                                                        "PCI\\VEN_1022\u0026DEV_17F0\u0026CC_118000",
+                                                        "PCI\\VEN_1022\u0026DEV_17F0\u0026CC_1180"
+                                                    ],
+                                          "CimType":  30,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Manufacturer",
+                                          "Value":  "AMD",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "PNPClass",
+                                          "Value":  "ComputeAccelerator",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Present",
+                                          "Value":  true,
+                                          "CimType":  1,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Service",
+                                          "Value":  "IpuMcdmDriver",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      }
+                                  ],
+        "CimSystemProperties":  {
+                                    "Namespace":  "ROOT/cimv2",
+                                    "ServerName":  "HEWY_V2",
+                                    "ClassName":  "Win32_PnPEntity",
+                                    "Path":  null
+                                },
+        "Class":  "ComputeAccelerator",
+        "FriendlyName":  "NPU Compute Accelerator Device",
+        "InstanceId":  "PCI\\VEN_1022\u0026DEV_17F0\u0026SUBSYS_8D87103C\u0026REV_10\\4\u002667F5A51\u00260\u00260142",
+        "Problem":  0,
+        "ConfigManagerErrorCode":  0,
+        "ProblemDescription":  null,
+        "Caption":  "NPU Compute Accelerator Device",
+        "Description":  "NPU Compute Accelerator Device",
+        "InstallDate":  null,
+        "Name":  "NPU Compute Accelerator Device",
+        "Status":  "OK",
+        "Availability":  null,
+        "ConfigManagerUserConfig":  false,
+        "CreationClassName":  "Win32_PnPEntity",
+        "DeviceID":  "PCI\\VEN_1022\u0026DEV_17F0\u0026SUBSYS_8D87103C\u0026REV_10\\4\u002667F5A51\u00260\u00260142",
+        "ErrorCleared":  null,
+        "ErrorDescription":  null,
+        "LastErrorCode":  null,
+        "PNPDeviceID":  "PCI\\VEN_1022\u0026DEV_17F0\u0026SUBSYS_8D87103C\u0026REV_10\\4\u002667F5A51\u00260\u00260142",
+        "PowerManagementCapabilities":  null,
+        "PowerManagementSupported":  null,
+        "StatusInfo":  null,
+        "SystemCreationClassName":  "Win32_ComputerSystem",
+        "SystemName":  "HEWY_V2",
+        "ClassGuid":  "{f01a9d53-3ff6-48d2-9f97-c8a7004be10c}",
+        "CompatibleID":  [
+                             "PCI\\VEN_1022\u0026DEV_17F0\u0026REV_10",
+                             "PCI\\VEN_1022\u0026DEV_17F0",
+                             "PCI\\VEN_1022\u0026CC_118000",
+                             "PCI\\VEN_1022\u0026CC_1180",
+                             "PCI\\VEN_1022",
+                             "PCI\\CC_118000\u0026DT_0",
+                             "PCI\\CC_118000",
+                             "PCI\\CC_1180\u0026DT_0",
+                             "PCI\\CC_1180"
+                         ],
+        "HardwareID":  [
+                           "PCI\\VEN_1022\u0026DEV_17F0\u0026SUBSYS_8D87103C\u0026REV_10",
+                           "PCI\\VEN_1022\u0026DEV_17F0\u0026SUBSYS_8D87103C",
+                           "PCI\\VEN_1022\u0026DEV_17F0\u0026CC_118000",
+                           "PCI\\VEN_1022\u0026DEV_17F0\u0026CC_1180"
+                       ],
+        "Manufacturer":  "AMD",
+        "PNPClass":  "ComputeAccelerator",
+        "Present":  true,
+        "Service":  "IpuMcdmDriver",
+        "PSComputerName":  null
+    },
+    {
+        "CimClass":  {
+                         "CimSuperClassName":  "CIM_LogicalDevice",
+                         "CimSuperClass":  {
+                                               "CimSuperClassName":  "CIM_LogicalElement",
+                                               "CimSuperClass":  {
+                                                                     "CimSuperClassName":  "CIM_ManagedSystemElement",
+                                                                     "CimSuperClass":  "ROOT/CIMV2:CIM_ManagedSystemElement",
+                                                                     "CimClassProperties":  "Caption Description InstallDate Name Status",
+                                                                     "CimClassQualifiers":  "Locale = 1033 UUID = \"{8502C518-5FBB-11D2-AAC1-006008C78BC7}\" Abstract = True",
+                                                                     "CimClassMethods":  "",
+                                                                     "CimSystemProperties":  "Microsoft.Management.Infrastructure.CimSystemProperties"
+                                                                 },
+                                               "CimClassProperties":  [
+                                                                          "Caption",
+                                                                          "Description",
+                                                                          "InstallDate",
+                                                                          "Name",
+                                                                          "Status",
+                                                                          "Availability",
+                                                                          "ConfigManagerErrorCode",
+                                                                          "ConfigManagerUserConfig",
+                                                                          "CreationClassName",
+                                                                          "DeviceID",
+                                                                          "ErrorCleared",
+                                                                          "ErrorDescription",
+                                                                          "LastErrorCode",
+                                                                          "PNPDeviceID",
+                                                                          "PowerManagementCapabilities",
+                                                                          "PowerManagementSupported",
+                                                                          "StatusInfo",
+                                                                          "SystemCreationClassName",
+                                                                          "SystemName"
+                                                                      ],
+                                               "CimClassQualifiers":  [
+                                                                          "Locale = 1033",
+                                                                          "UUID = \"{8502C529-5FBB-11D2-AAC1-006008C78BC7}\"",
+                                                                          "Abstract = True"
+                                                                      ],
+                                               "CimClassMethods":  [
+                                                                       "SetPowerState",
+                                                                       "Reset"
+                                                                   ],
+                                               "CimSystemProperties":  {
+                                                                           "Namespace":  "ROOT/CIMV2",
+                                                                           "ServerName":  "HEWY_V2",
+                                                                           "ClassName":  "CIM_LogicalDevice",
+                                                                           "Path":  null
+                                                                       }
+                                           },
+                         "CimClassProperties":  [
+                                                    {
+                                                        "Name":  "Caption",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MaxLen = 64 read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Description",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "InstallDate",
+                                                        "Value":  null,
+                                                        "CimType":  13,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Name",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Status",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MaxLen = 10 read = True ValueMap = ...",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Availability",
+                                                        "Value":  null,
+                                                        "CimType":  4,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True ValueMap = ...",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "ConfigManagerErrorCode",
+                                                        "Value":  null,
+                                                        "CimType":  6,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True Schema = \"Win32\" ValueMap = ...",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "ConfigManagerUserConfig",
+                                                        "Value":  null,
+                                                        "CimType":  1,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True Schema = \"Win32\"",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "CreationClassName",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "CIM_Key = True read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "DeviceID",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, Key, ReadOnly, NullValue",
+                                                        "Qualifiers":  "CIM_Key = True read = True key = True MappingStrings = ... Override = \"DeviceId\"",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "ErrorCleared",
+                                                        "Value":  null,
+                                                        "CimType":  1,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "ErrorDescription",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "LastErrorCode",
+                                                        "Value":  null,
+                                                        "CimType":  6,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "PNPDeviceID",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True Schema = \"Win32\"",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "PowerManagementCapabilities",
+                                                        "Value":  null,
+                                                        "CimType":  20,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "PowerManagementSupported",
+                                                        "Value":  null,
+                                                        "CimType":  1,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "StatusInfo",
+                                                        "Value":  null,
+                                                        "CimType":  4,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True ValueMap = ...",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "SystemCreationClassName",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "CIM_Key = True Propagated = \"CIM_System.CreationClassName\" read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "SystemName",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "CIM_Key = True Propagated = \"CIM_System.Name\" read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "ClassGuid",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "CompatibleID",
+                                                        "Value":  null,
+                                                        "CimType":  30,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "HardwareID",
+                                                        "Value":  null,
+                                                        "CimType":  30,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Manufacturer",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "PNPClass",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Present",
+                                                        "Value":  null,
+                                                        "CimType":  1,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    },
+                                                    {
+                                                        "Name":  "Service",
+                                                        "Value":  null,
+                                                        "CimType":  14,
+                                                        "Flags":  "Property, ReadOnly, NullValue",
+                                                        "Qualifiers":  "MappingStrings = ... read = True",
+                                                        "ReferenceClassName":  null
+                                                    }
+                                                ],
+                         "CimClassQualifiers":  [
+                                                    {
+                                                        "Name":  "Locale",
+                                                        "Value":  1033,
+                                                        "CimType":  7,
+                                                        "Flags":  "EnableOverride, ToSubclass"
+                                                    },
+                                                    {
+                                                        "Name":  "UUID",
+                                                        "Value":  "{FE28FD98-C875-11d2-B352-00104BC97924}",
+                                                        "CimType":  14,
+                                                        "Flags":  "EnableOverride, ToSubclass"
+                                                    },
+                                                    {
+                                                        "Name":  "dynamic",
+                                                        "Value":  true,
+                                                        "CimType":  1,
+                                                        "Flags":  "EnableOverride, ToSubclass"
+                                                    },
+                                                    {
+                                                        "Name":  "provider",
+                                                        "Value":  "CIMWin32",
+                                                        "CimType":  14,
+                                                        "Flags":  "EnableOverride, ToSubclass"
+                                                    }
+                                                ],
+                         "CimClassMethods":  [
+                                                 {
+                                                     "Name":  "SetPowerState",
+                                                     "ReturnType":  6,
+                                                     "Parameters":  "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                     "Qualifiers":  ""
+                                                 },
+                                                 {
+                                                     "Name":  "Reset",
+                                                     "ReturnType":  6,
+                                                     "Parameters":  "",
+                                                     "Qualifiers":  ""
+                                                 },
+                                                 {
+                                                     "Name":  "Enable",
+                                                     "ReturnType":  6,
+                                                     "Parameters":  "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                     "Qualifiers":  "Implemented = True"
+                                                 },
+                                                 {
+                                                     "Name":  "Disable",
+                                                     "ReturnType":  6,
+                                                     "Parameters":  "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                     "Qualifiers":  "Implemented = True"
+                                                 },
+                                                 {
+                                                     "Name":  "GetDeviceProperties",
+                                                     "ReturnType":  6,
+                                                     "Parameters":  "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                     "Qualifiers":  "Implemented = True"
+                                                 }
+                                             ],
+                         "CimSystemProperties":  {
+                                                     "Namespace":  "ROOT/cimv2",
+                                                     "ServerName":  "HEWY_V2",
+                                                     "ClassName":  "Win32_PnPEntity",
+                                                     "Path":  null
+                                                 }
+                     },
+        "CimInstanceProperties":  [
+                                      {
+                                          "Name":  "Caption",
+                                          "Value":  "Windows Studio Effects Driver",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Description",
+                                          "Value":  "Windows Studio Effects Driver",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "InstallDate",
+                                          "Value":  null,
+                                          "CimType":  13,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Name",
+                                          "Value":  "Windows Studio Effects Driver",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Status",
+                                          "Value":  "OK",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Availability",
+                                          "Value":  null,
+                                          "CimType":  4,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "ConfigManagerErrorCode",
+                                          "Value":  0,
+                                          "CimType":  6,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "ConfigManagerUserConfig",
+                                          "Value":  false,
+                                          "CimType":  1,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "CreationClassName",
+                                          "Value":  "Win32_PnPEntity",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "DeviceID",
+                                          "Value":  "SWD\\DRIVERENUM\\{DD94E48C-DED1-456D-AEBC-C6FAA121C2B8}#VEN_1022_DEV_17F0_SUBSYS_8D87103C_COMPONENT\u00265\u002652DED74\u00260",
+                                          "CimType":  14,
+                                          "Flags":  "Property, Key, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "ErrorCleared",
+                                          "Value":  null,
+                                          "CimType":  1,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "ErrorDescription",
+                                          "Value":  null,
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "LastErrorCode",
+                                          "Value":  null,
+                                          "CimType":  6,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "PNPDeviceID",
+                                          "Value":  "SWD\\DRIVERENUM\\{DD94E48C-DED1-456D-AEBC-C6FAA121C2B8}#VEN_1022_DEV_17F0_SUBSYS_8D87103C_COMPONENT\u00265\u002652DED74\u00260",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "PowerManagementCapabilities",
+                                          "Value":  null,
+                                          "CimType":  20,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "PowerManagementSupported",
+                                          "Value":  null,
+                                          "CimType":  1,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "StatusInfo",
+                                          "Value":  null,
+                                          "CimType":  4,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "SystemCreationClassName",
+                                          "Value":  "Win32_ComputerSystem",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "SystemName",
+                                          "Value":  "HEWY_V2",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "ClassGuid",
+                                          "Value":  "{5c4c3332-344d-483c-8739-259e934c9cc8}",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "CompatibleID",
+                                          "Value":  [
+                                                        "SWC\\Generic",
+                                                        "SWD\\GenericRaw",
+                                                        "SWD\\Generic"
+                                                    ],
+                                          "CimType":  30,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "HardwareID",
+                                          "Value":  [
+                                                        "SWC\\MEP_VEN_1022_DEV_17F0"
+                                                    ],
+                                          "CimType":  30,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Manufacturer",
+                                          "Value":  "Microsoft Corporation",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "PNPClass",
+                                          "Value":  "SoftwareComponent",
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Present",
+                                          "Value":  true,
+                                          "CimType":  1,
+                                          "Flags":  "Property, ReadOnly, NotModified",
+                                          "IsValueModified":  false
+                                      },
+                                      {
+                                          "Name":  "Service",
+                                          "Value":  null,
+                                          "CimType":  14,
+                                          "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                          "IsValueModified":  false
+                                      }
+                                  ],
+        "CimSystemProperties":  {
+                                    "Namespace":  "ROOT/cimv2",
+                                    "ServerName":  "HEWY_V2",
+                                    "ClassName":  "Win32_PnPEntity",
+                                    "Path":  null
+                                },
+        "Class":  "SoftwareComponent",
+        "FriendlyName":  "Windows Studio Effects Driver",
+        "InstanceId":  "SWD\\DRIVERENUM\\{DD94E48C-DED1-456D-AEBC-C6FAA121C2B8}#VEN_1022_DEV_17F0_SUBSYS_8D87103C_COMPONENT\u00265\u002652DED74\u00260",
+        "Problem":  0,
+        "ConfigManagerErrorCode":  0,
+        "ProblemDescription":  null,
+        "Caption":  "Windows Studio Effects Driver",
+        "Description":  "Windows Studio Effects Driver",
+        "InstallDate":  null,
+        "Name":  "Windows Studio Effects Driver",
+        "Status":  "OK",
+        "Availability":  null,
+        "ConfigManagerUserConfig":  false,
+        "CreationClassName":  "Win32_PnPEntity",
+        "DeviceID":  "SWD\\DRIVERENUM\\{DD94E48C-DED1-456D-AEBC-C6FAA121C2B8}#VEN_1022_DEV_17F0_SUBSYS_8D87103C_COMPONENT\u00265\u002652DED74\u00260",
+        "ErrorCleared":  null,
+        "ErrorDescription":  null,
+        "LastErrorCode":  null,
+        "PNPDeviceID":  "SWD\\DRIVERENUM\\{DD94E48C-DED1-456D-AEBC-C6FAA121C2B8}#VEN_1022_DEV_17F0_SUBSYS_8D87103C_COMPONENT\u00265\u002652DED74\u00260",
+        "PowerManagementCapabilities":  null,
+        "PowerManagementSupported":  null,
+        "StatusInfo":  null,
+        "SystemCreationClassName":  "Win32_ComputerSystem",
+        "SystemName":  "HEWY_V2",
+        "ClassGuid":  "{5c4c3332-344d-483c-8739-259e934c9cc8}",
+        "CompatibleID":  [
+                             "SWC\\Generic",
+                             "SWD\\GenericRaw",
+                             "SWD\\Generic"
+                         ],
+        "HardwareID":  [
+                           "SWC\\MEP_VEN_1022_DEV_17F0"
+                       ],
+        "Manufacturer":  "Microsoft Corporation",
+        "PNPClass":  "SoftwareComponent",
+        "Present":  true,
+        "Service":  null,
+        "PSComputerName":  null
+    }
+]

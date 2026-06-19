@@ -1,0 +1,37 @@
+﻿[
+    {
+        "Tool":  "ollama",
+        "Found":  true,
+        "Source":  "C:\\Users\\hpcoo\\AppData\\Local\\Programs\\Ollama\\ollama.exe"
+    },
+    {
+        "Tool":  "python",
+        "Found":  true,
+        "Source":  "C:\\Users\\hpcoo\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+    },
+    {
+        "Tool":  "py",
+        "Found":  true,
+        "Source":  "C:\\Users\\hpcoo\\AppData\\Local\\Microsoft\\WindowsApps\\py.exe"
+    },
+    {
+        "Tool":  "winget",
+        "Found":  true,
+        "Source":  "C:\\Users\\hpcoo\\AppData\\Local\\Microsoft\\WindowsApps\\winget.exe"
+    },
+    {
+        "Tool":  "gaia",
+        "Found":  false,
+        "Source":  ""
+    },
+    {
+        "Tool":  "lemonade",
+        "Found":  false,
+        "Source":  ""
+    },
+    {
+        "Tool":  "lemonade-server",
+        "Found":  false,
+        "Source":  ""
+    }
+]

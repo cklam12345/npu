@@ -1,0 +1,8 @@
+﻿NAME                 ID              SIZE      MODIFIED    
+qwen2.5-coder:14b    9ec8897f747e    9.0 GB    11 days ago    
+gemma4:12b           4eb23ef187e2    7.6 GB    11 days ago    
+qwen2.5:14b          7cdf5a0187d5    9.0 GB    5 weeks ago    
+
+Running local Ollama model: qwen2.5-coder:14b
+Prompt: In one short paragraph, describe why local AI on a Copilot+ PC with an AMD NPU matters for privacy, latency, and product experience.
+
