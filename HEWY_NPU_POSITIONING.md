@@ -1,46 +1,23 @@
 # Hewy + AMD NPU Positioning
 
-## Core message
+## Current status
 
-Hewy was the real product workflow on screen. During that Hewy / WisdomGraph working session, the HP AMD NPU showed sustained activity because Windows on-device AI was processing the live local context: screen changes, OCR, and semantic indexing.
+The current scripts did not load the NPU.
 
-That is local AI being used around Hewy in a real working session.
+Hewy can still be positioned as a meaningful local AI work surface, but this repo does not prove that Hewy itself, Codex, Ollama, or the included stress scripts use the AMD NPU.
 
-## The strongest truthful claim
+## Strongest truthful claim
 
-Hewy creates a rich local AI work context, and on this HP Copilot+ class machine, Windows local AI used the AMD NPU while Hewy was being actively used.
-
-## What the MP4 proves
-
-- Hewy Smart Qual UI was visible in Microsoft Edge.
-- WisdomGraph / Claude Code work was active in the terminal.
-- Task Manager showed sustained AMD NPU activity.
-- The NPU activity rose during rapid screen and terminal changes.
-- The camera was not the driver.
-- The most defensible driver is Windows Copilot+ on-device AI, such as Recall/snapshot OCR and semantic indexing.
+This HP machine has AMD NPU hardware. Hewy creates rich local work context. We still need a direct NPU-backed runtime or Windows feature trace before claiming that the NPU is actively processing Hewy work.
 
 ## What not to overclaim
 
-Do not say Hewy's own model inference definitely ran on the NPU unless we later prove Hewy is calling a Windows AI, Ryzen AI, ONNX Runtime, or AMD XDNA backend directly.
+Do not say Hewy runs inference on the NPU unless Hewy is actually calling a Windows AI, Ryzen AI, ONNX Runtime, AMD XDNA, or other NPU backend and the run is verified.
 
-Do not say Ollama or Codex used the AMD NPU unless a backend trace proves it.
+Do not say Ollama, Codex, or Claude Code used the AMD NPU unless a backend trace proves it.
 
-## Leadership phrasing
+Do not say the screen-stress scripts are NPU demos. They are failed stimulus tests unless the NPU graph rises.
 
-Hewy is already creating the kind of high-value local work context that AI PCs were built for. In the recorded Hewy session, the AMD NPU was active because Windows on-device AI was processing that local context in real time. That makes Hewy a credible product workflow for demonstrating HP's local AI story: private, contextual, on-device intelligence running on Copilot+ class hardware.
+## Safe wording
 
-## Short version
-
-Hewy did not need to pretend to be the NPU runtime. Hewy was the meaningful local workflow that made the NPU-backed Windows AI useful.
-
-## Demo line
-
-This is Hewy running as the work surface, with Windows local AI using the AMD NPU to understand and index the live work context.
-
-## Control test
-
-1. Play or repeat the Hewy workflow with Task Manager open to Performance > NPU.
-2. Confirm Recall/snapshots are enabled.
-3. Pause Recall/snapshots.
-4. Repeat the same busy Hewy workflow.
-5. If the NPU plateau disappears or shrinks, the driver is Windows local AI processing Hewy's screen context.
+Hewy is a local AI workflow that could benefit from NPU-backed on-device intelligence. On this machine, the included scripts did not prove NPU usage. The next proof point must come from a direct NPU runtime, supported Windows NPU feature, or traceable AMD Ryzen AI/XDNA workload.

@@ -2,9 +2,11 @@
 
 ## What is true
 
-The scripts in this repo create screen, terminal, and browser activity. They do not directly run an NPU kernel.
+The scripts in this repo failed to load the NPU on this machine.
 
-If Task Manager > Performance > NPU stays flat, the honest conclusion is that the workload did not trigger NPU-backed processing on this system.
+They create screen, terminal, and browser activity. They do not directly run an NPU kernel.
+
+Because Task Manager > Performance > NPU stayed flat, the honest conclusion is that the workload did not trigger NPU-backed processing on this system.
 
 ## Why this happens
 
@@ -22,6 +24,6 @@ If Task Manager > Performance > NPU stays flat, the honest conclusion is that th
 
 ## What to say
 
-Use: "This PC has an AMD NPU. This script creates a workload that may be picked up by Windows on-device AI. NPU use is proven only when the NPU graph or runtime trace shows activity."
+Use: "This PC has an AMD NPU, but the scripts in this repo did not load it. NPU use is proven only when the NPU graph or runtime trace shows activity."
 
 Avoid: "Hewy/Codex/Ollama is running on the NPU" unless the backend explicitly proves NPU execution.

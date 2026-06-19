@@ -1,33 +1,34 @@
 # HP Leader NPU Demo
 
-## Claim to make
+## Current status
 
-This HP system is using local on-device AI on the AMD NPU during a real Hewy work session.
+No working demo in this repo has successfully loaded the NPU on this machine.
 
-## Claim to avoid
+The scripts create screen, browser, terminal, and local text activity. They did not cause Task Manager > Performance > NPU to show load in the current test.
 
-Do not say Hewy, Codex, Claude Code, or Ollama is running its model inference on the NPU unless a separate backend proves that directly. The verified NPU activity here is Windows Copilot+ on-device AI, especially Recall/snapshot OCR and semantic indexing, processing the local Hewy work context.
+## Truthful claim to make
 
-## Demo steps
+This HP system has an AMD NPU device, but this repo has not proven that Hewy, Codex, Ollama, or the included scripts execute work on that NPU.
 
-1. Open Task Manager and switch to Performance > NPU.
-2. Open Settings > Privacy & security > Recall & snapshots.
-3. Confirm Recall/snapshots are enabled.
-4. Run:
+## Claims to avoid
 
-```powershell
-.\Invoke-NpuRecallDemo.ps1
-```
+Do not say:
 
-5. Watch the NPU graph while the browser and terminal content changes rapidly.
-6. Pause Recall/snapshots and run the script again as a control test.
+- Hewy is running on the NPU.
+- Codex or Claude Code is running on the NPU.
+- Ollama is running on the NPU.
+- The included scripts demonstrate NPU acceleration.
+- Windows Recall is definitely loading the NPU during this demo.
 
-## Talk track
+## What the scripts actually do
 
-This is local AI running on the device during a Hewy workflow. Hewy is the work surface; the NPU is processing the local screen context for on-device understanding, OCR, and semantic indexing. Codex is useful as the operator that builds and runs the demo, but the honest technical proof is that Windows on-device AI lights up the AMD NPU while Hewy is active.
+`Invoke-NpuRecallDemo.ps1` and `Invoke-HeavyNpuScreenStress.ps1` generate changing screen content. That can be useful as a stimulus test, but it is not an NPU workload.
 
-## Short command for a faster demo
+If the NPU graph stays flat, the correct conclusion is: the stimulus failed to load the NPU.
 
-```powershell
-.\Invoke-NpuRecallDemo.ps1 -Seconds 45
-```
+## Honest next step
+
+For a real demo, use a workload that explicitly targets the AMD NPU/XDNA/Ryzen AI runtime, then capture either:
+
+- Task Manager > Performance > NPU showing load during the run, or
+- runtime logs/traces proving NPU execution.
