@@ -173,9 +173,10 @@ function New-StressPage {
 Write-Step "NPU device"
 Get-NpuDevice | Format-Table -AutoSize Status, Class, FriendlyName, InstanceId
 
-Write-Step "Best settings for load"
-Write-Host "Enable Recall/snapshots and keep Task Manager on Performance > NPU."
-Write-Host "This is a screen-understanding stress test, not proof that an LLM backend is on the NPU."
+Write-Step "What this can and cannot prove"
+Write-Host "This creates heavy screen churn; it does not directly invoke the NPU."
+Write-Host "Enable Recall/snapshots or another NPU-backed Windows feature, then keep Task Manager on Performance > NPU."
+Write-Host "If the NPU graph stays flat, the honest result is: no NPU-backed feature picked up this workload."
 
 if (-not $NoTaskManager) {
     Start-Process taskmgr.exe | Out-Null
@@ -209,4 +210,4 @@ while ((Get-Date) -lt $stopAt) {
 
 Write-Step "Done"
 Write-Host "Stress folder: $root"
-Write-Host "If NPU only spikes briefly, try real Windows NPU apps: Studio Effects, Recall search, Click to Do, or AMD Amuse with XDNA2 offload."
+Write-Host "For a direct NPU demo, use an app/runtime that explicitly targets the NPU, such as Windows Studio Effects, Recall search/Click to Do when available, or an AMD/ONNX/Ryzen AI sample with XDNA offload."

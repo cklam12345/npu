@@ -194,9 +194,9 @@ Write-Host "1. Open Settings > Privacy & security > Recall & snapshots."
 Write-Host "2. Confirm Recall/snapshots are enabled for the strongest NPU signal."
 Write-Host "3. Watch Task Manager > Performance > NPU."
 Write-Host ""
-Write-Host "Honest demo claim: this PC is using local on-device AI on the NPU."
-Write-Host "This does not prove Codex or an LLM is executing inference on the NPU."
-Write-Host "The workload creates rapidly changing local screen content so Windows on-device AI, such as Recall OCR/indexing, can use the NPU."
+Write-Host "Truthful demo claim: this script creates screen and console stimulus that may be processed by Windows on-device AI."
+Write-Host "It does not directly invoke the NPU, and it does not prove Codex, Hewy, Ollama, or an LLM is executing inference on the NPU."
+Write-Host "You only have NPU proof if Task Manager > Performance > NPU rises while Recall/snapshots or another NPU-backed feature is active."
 
 if (-not $NoTaskManager) {
     Write-Step "Opening Task Manager"
@@ -234,5 +234,6 @@ while ((Get-Date) -lt $stopAt) {
 }
 
 Write-Step "Done"
-Write-Host "Expected result: with Recall enabled, Task Manager's NPU graph should rise during the screen-changing workload and fall after it stops."
-Write-Host "Control test: pause Recall/snapshots and run this again. The NPU plateau should shrink or disappear."
+Write-Host "Expected only if Recall/snapshots or another NPU-backed Windows feature is active: Task Manager's NPU graph rises during the workload and falls after it stops."
+Write-Host "If the NPU graph stays flat, the honest conclusion is that this stimulus did not trigger NPU work on this system."
+Write-Host "Control test: pause Recall/snapshots and run this again. If nothing changes, Recall was not the driver."

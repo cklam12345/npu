@@ -106,8 +106,8 @@ if (-not $SkipOllama) {
 }
 
 if (-not $SkipRecallStimulus) {
-    Write-Step "Starting AMD NPU visible workload"
-    Write-Host "This part demonstrates local Windows on-device AI using the NPU for screen understanding."
+    Write-Step "Starting screen stimulus for possible NPU-backed Windows AI"
+    Write-Host "This part creates changing screen content. It only demonstrates NPU use if Task Manager's NPU graph rises."
     Write-Host "Keep Task Manager visible at Performance > NPU."
     & (Join-Path (Get-Location) "Invoke-NpuRecallDemo.ps1") -Seconds $Seconds -UpdateMs $UpdateMs
 }
@@ -119,7 +119,7 @@ Generated: $(Get-Date -Format "yyyy-MM-dd HH:mm:ss zzz")
 
 ## Truthful claim
 
-This HP PC has an AMD NPU and can demonstrate local on-device AI. Ollama, when a model is installed, demonstrates local LLM execution on the PC. Windows Copilot+ features such as Recall/snapshot OCR and semantic indexing demonstrate NPU-backed local AI behavior on the AMD NPU.
+This HP PC has an AMD NPU and can demonstrate local AI capabilities. Ollama, when a model is installed, demonstrates local LLM execution on the PC, but not necessarily on the NPU. Windows Copilot+ features such as Recall/snapshot OCR and semantic indexing are the likely NPU-backed path, but the proof is the Task Manager NPU graph rising during the workload.
 
 ## Boundary
 
@@ -133,7 +133,7 @@ Codex is the cloud coding agent operating the workflow. This evidence does not c
 
 ## Leadership line
 
-We are using local AI on HP hardware, and the AMD NPU is active for on-device Windows AI workloads. That is the honest, defensible proof.
+We are using local AI on HP hardware. Claim AMD NPU activity only when Task Manager or a direct NPU runtime trace shows the NPU is active during the workload.
 "@
 
 $summaryPath = Join-Path $reportDir "README.md"
